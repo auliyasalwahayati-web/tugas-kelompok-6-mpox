@@ -91,7 +91,13 @@ Fill this table using the actual evaluation output. Do not enter estimated or un
 |---|---:|---:|---:|---:|
 | SimpleCNN (`model1`) | — | — | — | — | — |
 | SimpleCNNReg (`model2`) | — | — | — | — | — |
-| EfficientNet-B0 | — | — | — | — | — |
+| EfficientNet-B0:
+| fold | best_epoch | best_valid_loss,minutes |
+|1 | 1 | 0.6160383489396837 | 13.58802063067754 |
+|2 | 3 | 0.4550547281449491 | 19.721858223279316 |
+|3 | 1 | 0.8151986449956894 | 15.550146174430846 |
+|4 | 2 | 0.4174369961023331 | 16.252283847332002 |
+|5 | 1 | 0.6665902446955443 | 14.269605708122253 |
 
 > Metrics can be added once the evaluation results are available.
 
@@ -255,12 +261,12 @@ Results/
 
 Add team member names and roles here:
 
-| No. | Name | Role |
+| No. | Name | NIM |
 |---:|---|---|
-| 1 | Member 1 | — |
-| 2 | Member 2 | — |
-| 3 | Member 3 | — |
-| 4 | Member 4 | — |
+| 1 | Auliya Salwa Hayati | 108102530004 |
+| 2 | Meisyah Zaskia | 108102500043 |
+| 3 | Aprialdi Alkatiri Tanaem | — |
+
 
 ---
 
