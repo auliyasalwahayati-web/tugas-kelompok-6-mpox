@@ -1,0 +1,10 @@
+# Library yang dipakai langsung oleh kode.
+# PyTorch (torch dan torchvision) TIDAK ada di sini karena cara instalnya berbeda
+# untuk GPU NVIDIA dan CPU. Lihat bagian "Persiapan environment" di README.md.
+kagglehub==1.0.3
+opencv-python==5.0.0.93
+numpy==2.5.4
+pandas==3.1.1
+matplotlib==3.11.2
+seaborn==0.13.2
+scikit-learn==1.9.1
