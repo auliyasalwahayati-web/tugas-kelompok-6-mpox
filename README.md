@@ -41,11 +41,35 @@ The models are trained and evaluated using a **5-fold cross-validation** approac
 
 The repository currently contains three model configurations in `config.py`.
 
-| Model ID | Architecture | Input Image Size | Batch Size | Epochs | Learning Rate | Early Stopping |
-|---|---|---:|---:|---:|---:|---|
-| `model1` | SimpleCNN | 100 × 100 | 32 | 100 | 0.001 | No |
-| `model2` | SimpleCNNReg | 100 × 100 | 16 | 20 | 0.0001 | Patience 5 |
-| `efficientnetb0` | EfficientNet-B0 (pretrained) | 224 × 224 | 16 | 20 | 0.0001 | Patience 5 |
+### Model 1 — SimpleCNN
+
+| Fold | Best Epoch | Best Validation Loss | Time (minutes) |
+|---:|---:|---:|---:|
+| 1 | 1 | 1.6509 | 2.70 |
+| 2 | 2 | 1.3321 | 3.70 |
+| 3 | 2 | 1.6671 | 4.72 |
+| 4 | 1 | 1.5324 | 5.04 |
+| 5 | 1 | 1.6094 | 3.18 |
+
+### Model 2 — SimpleCNNReg
+
+| Fold | Best Epoch | Best Validation Loss | Time (minutes) |
+|---:|---:|---:|---:|
+| 1 | 3 | 1.5192 | 0.84 |
+| 2 | 10 | 1.1751 | 1.07 |
+| 3 | 3 | 1.6466 | 0.82 |
+| 4 | 6 | 1.2907 | 1.01 |
+| 5 | 5 | 1.6303 | 1.01 |
+
+### EfficientNet-B0
+
+| Fold | Best Epoch | Best Validation Loss | Time (minutes) |
+|---:|---:|---:|---:|
+| 1 | 1 | 0.6160 | 13.59 |
+| 2 | 3 | 0.4551 | 19.72 |
+| 3 | 1 | 0.8152 | 15.55 |
+| 4 | 2 | 0.4174 | 16.25 |
+| 5 | 1 | 0.6666 | 14.27 |
 
 All configurations are set to produce **6 output classes**.
 
