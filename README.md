@@ -280,7 +280,7 @@ Add team member names and roles here:
 |---:|---|---|
 | 1 | Auliya Salwa Hayati | 108102530004 |
 | 2 | Meisyah Zaskia | 108102500043 |
-| 3 | Aprialdi Alkatiri Tanaem | — |
+| 3 | Aprialdi Alkatiri Tanaem | 1081025000 |
 
 
 ---
